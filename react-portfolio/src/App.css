@@ -90,7 +90,26 @@ position: absolute;
   height: 700px;
   margin: 5%;
 }
-
+.image-container{
+  width: 250px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+}
+.about .picture{
+  padding: 15px 15px 8px 15px;
+  width: 200px;
+  height: 300px;
+} 
+.react{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
 .about-heading{
   font-size: 20px;
   margin-bottom: 5%;

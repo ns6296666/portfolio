@@ -1,11 +1,19 @@
 import picture from "./assets/picture.avif";
-
+import react from "./assets/react.svg";
+import js from "./assets/javascript.svg";
 export default function About() {
   return (
     <div className="about">
       <p className="about-heading text-center">ABOUT ME</p>
       <div className="about-content">
-        <img src={picture} />
+        <div className="image-container">
+          <img src={picture} className="picture" />
+          <div className="course-img">
+            <img src={react} className="react" />
+            <img src={js} className="react" />
+          </div>
+        </div>
+
         <div>
           <h4>Hi :)</h4>
           <p>
