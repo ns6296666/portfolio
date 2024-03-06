@@ -2,6 +2,7 @@
  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 
 }
 .first-section{
@@ -9,10 +10,7 @@
   height: 100vh;
   background-color: #E9D5A1;
 }
-/* .header{
-  
-  background-color: #E9D5A1;
-} */
+
 .logo{
   width: 0;
 	height: 0;
@@ -21,9 +19,67 @@
     border-bottom: 100px solid transparent;
 }
 .logo-image{
-  width: 40px;height: 40px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   top: 12px;
   transform: rotate(310deg);
   left: -71px;
+}
+.heading{
+  
+  top: 50%;
+  left: 50%; position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.code-image{
+  width: 150px;
+  height: 150px;
+
+}
+
+.name{
+  text-align: center;
+}
+.wrapper {
+  display: inline-flex;
+}
+.wrapper .static-txt{
+
+}
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+height: 90px;
+line-height: 90px;
+overflow: hidden;
+}
+.dynamic-txts li{
+  color:#000;
+  list-style: none;
+  overflow: hidden;
+  animation: slide 1.5s steps(4) infinite;
+  top:0
+}
+.dynamic-txts li {
+  position: relative;
+}
+.dynamic-txts li span{
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 1.5s steps(10) infinite;
+position: absolute;
+  animation-fill-mode: forwards;
+}
+@keyframes slide {
+ 100%{
+  top:-360px;
+ }
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
