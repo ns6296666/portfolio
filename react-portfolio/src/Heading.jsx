@@ -1,5 +1,5 @@
 import "./App.css";
 
-export default function Heading({ name }) {
-  return <p className="about-heading text-center">{name}</p>;
+export default function Heading(props) {
+  return <p className="about-heading text-center">{props.name}</p>;
 }

@@ -4,41 +4,41 @@ export default function Project() {
   return (
     <div className="project">
       <Heading name="PROJECTS" />
-      <div class="card project-cards" style={{ width: "18rem" }}>
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
+      <div className="card project-cards" style={{ width: "18rem" }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
             Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            bulk of the card&apos;s content.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
         </div>
       </div>
-      <div class="card project-cards" style={{ width: "18rem" }}>
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
+      <div className="card project-cards" style={{ width: "18rem" }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
             Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            bulk of the card&apos;s content.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
         </div>
       </div>
-      <div class="card project-cards" style={{ width: "18rem" }}>
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
+      <div className="card project-cards" style={{ width: "18rem" }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
             Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            bulk of the card&apos;s content.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
         </div>

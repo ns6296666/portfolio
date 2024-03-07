@@ -25,13 +25,13 @@ export default function About() {
             <img src={mini} className="react" />
           </div>
           <div className="description">
-            <h4>Hi :)</h4>
+            <h4>Hi :&#41;</h4>
             <br />
             <p>
-              👋 I am Nidhi Sharma. I have 3 years of experience. I'm working
-              with newest front-end framework React. What you are seeing now is
-              portfolio template from ns6296666. If you like this portfolio
-              template, make sure to ⭐ the repository. Thank you 💜
+              👋 I am Nidhi Sharma. I have 3 years of experience. I&apos;m
+              working with newest front-end framework React. What you are seeing
+              now is portfolio template from ns6296666. If you like this
+              portfolio template, make sure to ⭐ the repository. Thank you 💜
             </p>
           </div>
         </div>

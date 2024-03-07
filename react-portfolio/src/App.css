@@ -161,3 +161,7 @@ position: absolute;
   background-color: #E9D5A1;
   padding-top: 6%;
 }
+.project-cards{
+  display: flex;
+  
+}
