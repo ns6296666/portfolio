@@ -10,7 +10,7 @@ export default function Project() {
       <div className="project-cards">
         <div
           className="card project-card"
-          style={{ width: "20rem", height: "350px" }}
+          style={{ width: "20rem", height: "280px" }}
         >
           <Link to="https://ns6296666.github.io/dailyplanner/">
             <img src={planner} className="card-img-top" alt="planner" />
@@ -30,7 +30,7 @@ export default function Project() {
 
         <div
           className="card project-card"
-          style={{ width: "20rem", height: "350px" }}
+          style={{ width: "20rem", height: "280px" }}
         >
           <Link to="https://ns6296666.github.io/WeatherDashboard/">
             <img src={forecast} className="card-img-top" alt="..." />
@@ -47,7 +47,7 @@ export default function Project() {
 
         <div
           className="card project-card"
-          style={{ width: "20rem", height: "350px" }}
+          style={{ width: "20rem", height: "280px" }}
         >
           <Link to="https://www.ssdntech.com/">
             <img src={ssdn} className="card-img-top" alt="..." />
