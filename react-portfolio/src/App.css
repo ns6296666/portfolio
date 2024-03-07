@@ -245,9 +245,9 @@
 /* experience css */
 
 .experience {
-  height: 700px;
-  background-color: #e9d5a1;
-  padding: 6%;
+  height: 100%;
+  background-color: #EFE0BD;
+  padding: 4%;
 }
 .framework {
   background-color: #ae944f;
@@ -278,4 +278,13 @@
   font-size: 10px;
   color:#000;
   margin-right: 5px;
+}
+.extra-div{
+  background-color: #EEDFBD;
+  width: 200px;
+  height: 80px;
+  margin-top: -18px;
+    margin-left: 41%;
+    position: absolute;
+    bottom: 0px;
 }

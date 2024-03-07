@@ -1,28 +1,35 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
-import react from "./assets/react.svg";
-
-export default function VerticalTimeLine() {
+export default function VerticalTimeLine({
+  date,
+  image,
+  framework,
+  company,
+  skills,
+  designation,
+}) {
+  console.log(skills);
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
       contentStyle={{ background: "#fff", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-      date="2023 - present"
+      date={date ? date : null}
       dateClassName="date"
       iconStyle={{ background: "#AE944F", color: "#fff" }}
-      icon={<img src={react} alt="react" className="skill-img" />}
+      icon={<img src={image} alt="react" className="skill-img" />}
     >
-      <button className="framework">React Native</button>
-      <p className="vertical-timeline-element-title">React Native Intern</p>
-      <p className="vertical-timeline-element-subtitle">Natter</p>
+      <button className="framework">{framework}</button>
+      <p className="vertical-timeline-element-title">{designation}</p>
+      <p className="vertical-timeline-element-subtitle">{company}</p>
       <div>
-        <button className="languages">React Native</button>
-        <button className="languages">javascript</button>
-        <button className="languages">CSS 3</button>
-        <button className="languages">Redux</button>
-        <button className="languages">React Query</button>
-        <button className="languages">Jotai</button>
+        {skills?.length > 0
+          ? skills.map((skill, index) => (
+              <button className="languages" key={index}>
+                {skill}
+              </button>
+            ))
+          : null}
       </div>
     </VerticalTimelineElement>
   );
