@@ -208,3 +208,14 @@ text-align: center;
   font-weight: 400px;
   letter-spacing: .2rem;
 }
+
+/* skills css */
+.skills-section{
+  background-color:#1F1F1F;
+  height: 420px;
+  padding: 6%;
+}
+.skill-heading{
+  color:#fff;
+  letter-spacing: .2rem;
+}
