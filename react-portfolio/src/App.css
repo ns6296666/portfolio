@@ -1,24 +1,23 @@
 * {
- box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-
 }
-.first-section{
+.first-section {
   width: 100vw;
   height: 100vh;
-  background-color: #E9D5A1;
+  background-color: #e9d5a1;
 }
 
-.logo{
+.logo {
   width: 0;
-	height: 0;
+  height: 0;
   position: relative;
-	border-left: 85px solid #000;
-    border-bottom: 100px solid transparent;
+  border-left: 85px solid #000;
+  border-bottom: 100px solid transparent;
 }
-.logo-image{
+.logo-image {
   width: 40px;
   height: 40px;
   position: absolute;
@@ -26,128 +25,127 @@
   transform: rotate(310deg);
   left: -71px;
 }
-.heading{
-  
+.heading {
   top: 50%;
-  left: 50%; position: absolute;
+  left: 50%;
+  position: absolute;
   transform: translate(-50%, -50%);
-  display: flex;justify-content: center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
-.code-image{
+.code-image {
   width: 150px;
   height: 150px;
-
 }
 
-.name{
+.name {
   text-align: center;
 }
 .wrapper {
   display: inline-flex;
 }
-.wrapper .static-txt{
-
+.wrapper .static-txt {
 }
 .wrapper .dynamic-txts {
   margin-left: 15px;
-height: 90px;
-line-height: 90px;
-overflow: hidden;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
 }
-.dynamic-txts li{
-  color:#000;
+.dynamic-txts li {
+  color: #000;
   list-style: none;
   overflow: hidden;
   animation: slide 1.5s steps(4) infinite;
-  top:0
+  top: 0;
 }
 .dynamic-txts li {
   position: relative;
 }
-.dynamic-txts li span{
+.dynamic-txts li span {
   overflow: hidden;
   white-space: nowrap;
   width: 0;
   animation: typing 1.5s steps(10) infinite;
-position: absolute;
+  position: absolute;
   animation-fill-mode: forwards;
 }
 @keyframes slide {
- 100%{
-  top:-360px;
- }
+  100% {
+    top: -360px;
+  }
 }
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* About Css */
-.about{
+.about {
   width: 100%;
   height: 550px;
-  margin-top:4%;
-
-
+  margin-top: 4%;
 }
-.about-heading{
+.about-heading {
   font-size: 20px;
   margin-bottom: 4%;
- 
 }
-.about-content{
+.about-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top:6%;
-  margin-left:8%;
-  margin-right:8%;
+  margin-top: 6%;
+  margin-left: 8%;
+  margin-right: 8%;
   height: 350px;
-
 }
-.image-container{
+.image-container {
   width: 230px;
   height: 350px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
 }
-.about .picture{
+.about .picture {
   padding: 20px 15px 15px 15px;
   width: 200px;
   height: 300px;
-} 
-.react{
+}
+.react {
   width: 50px;
   height: 50px;
   text-align: center;
   margin-bottom: 10px;
 }
-.about-head{
+.about-head {
   width: 100%;
-  background-color:#F7F7F7;
-  padding: 5px ;
+  background-color: #f7f7f7;
+  padding: 5px;
   border: 1px solid lightgray;
   /* margin-bottom: 10px; */
 }
 
-.about-head img{
+.about-head img {
   width: 10px;
   height: 10px;
   margin-left: 10px;
 }
 
-.right-content{
+.right-content {
   width: 750px;
   margin-right: 6%;
-  
-  align-items:center
+
+  align-items: center;
 }
-.description{
+.description {
   border: 1px solid lightgray;
   border-top: none;
   padding: 20px;
@@ -155,94 +153,129 @@ position: absolute;
 
 /* project css */
 
-.project{
+.project {
   height: 700px;
   width: 100%;
-  background-color: #E9D5A1;
+  background-color: #e9d5a1;
   padding: 6% 6%;
-
 }
-.project-cards{
+.project-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.project-card{
+.project-card {
   margin-right: 20px;
- display: flex;
- justify-content: center;
- box-shadow: 0 4px 6px rgba(0,0,0,.3);
- transition: all .2s linear;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s linear;
 }
-.project-card:hover{
+.project-card:hover {
   transform: scale(1.01);
   z-index: 10;
-  box-shadow: 0 10px 20px rgba(0,0,0,.7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
-.project-card img{
+.project-card img {
   width: 100%;
   height: 200px;
   padding: 10px;
   padding-bottom: 0px;
 }
 
-.card-body{
-padding: 0px;
-text-align: center;
+.card-body {
+  padding: 0px;
+  text-align: center;
 }
 .project-card span {
-  background-color:gray;
+  background-color: gray;
   padding: 3px 8px;
   border-radius: 5px;
-    color:#fff;
-   
-  }
-  .card-title{
-    margin-top: 15px;
-  }
-.project-card p a{
+  color: #fff;
+}
+.card-title {
+  margin-top: 15px;
+}
+.project-card p a {
   text-decoration: none;
-  color:#000;
+  color: #000;
   text-align: center;
   font-weight: 400px;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 /* skills css */
-.skills-section{
-  background-color:#1F1F1F;
+.skills-section {
+  background-color: #1f1f1f;
   height: 420px;
   padding: 6%;
 }
-.skill-heading{
-  color:#fff;
-  letter-spacing: .2rem;
+.skill-heading {
+  color: #fff;
+  letter-spacing: 0.2rem;
 }
-.skills-cards{
+.skills-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
 }
-.skill-card{
+.skill-card {
   margin-top: 2%;
   margin-right: 4%;
-  background-color:#2A2929;
+  background-color: #2a2929;
   display: flex;
   flex-direction: column;
   /* justify-content: center;*/
-  align-items:center; 
+  align-items: center;
   padding: 5px;
 }
-.skill-img{
+.skill-img {
   width: 50px;
   height: 50px;
   text-align: center;
- margin: 5px;
+  margin: 5px;
 }
-.skill{
-  color:hsl(0, 0%, 100%);
+.skill {
+  color: hsl(0, 0%, 100%);
   font-size: 13px;
+}
+
+/* experience css */
+
+.experience {
+  height: 700px;
+  background-color: #e9d5a1;
+  padding: 6%;
+}
+.framework {
+  background-color: #ae944f;
+  border: none;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  color:#fff;
+}
+.vertical-timeline-element-title {
+  color: #000;
+  font-weight: lighter;
+}
+.vertical-timeline-element-subtitle {
+  color: #000;
+  font-weight: lighter;
+  margin-top: 0px !important;
+  font-size: 14px !important;
+}
+.date {
+  color: #2a2929;
+}
+.languages{
+  background-color: #F8F5E9;
+  border: none;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  color:#000;
+  margin-right: 5px;
 }
