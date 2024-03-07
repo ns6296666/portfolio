@@ -159,9 +159,16 @@ position: absolute;
   height: 700px;
   width: 100%;
   background-color: #E9D5A1;
-  padding-top: 6%;
+  padding: 6% 6%;
+
 }
 .project-cards{
   display: flex;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project-card{
+  margin-right: 20px;
+ 
 }
