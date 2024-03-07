@@ -1,6 +1,8 @@
 import Heading from "./Heading";
-import Link from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import planner from "./assets/planner.jpg";
+import forecast from "./assets/forecast.avif";
+import ssdn from "./assets/ssdn.jpeg";
 export default function Project() {
   return (
     <div className="project">
@@ -11,7 +13,7 @@ export default function Project() {
             className="card project-card"
             style={{ width: "20rem", height: "350px" }}
           >
-            <img src="..." className="card-img-top" alt="..." />
+            <img src={planner} className="card-img-top" alt="planner" />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
@@ -29,7 +31,7 @@ export default function Project() {
             className="card project-card"
             style={{ width: "20rem", height: "350px" }}
           >
-            <img src="..." className="card-img-top" alt="..." />
+            <img src={forecast} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
@@ -47,7 +49,7 @@ export default function Project() {
             className="card project-card"
             style={{ width: "20rem", height: "350px" }}
           >
-            <img src="..." className="card-img-top" alt="..." />
+            <img src={ssdn} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
