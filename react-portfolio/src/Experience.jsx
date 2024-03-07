@@ -6,7 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 import Heading from "./Heading";
 import VerticalTimeLine from "./VerticalTimeLine";
-import react from "./assets/react.svg";
+import react from "./assets/reacts.svg";
 import star from "./assets/star.svg";
 
 export default function Experience() {

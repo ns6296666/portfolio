@@ -1,11 +1,14 @@
 import "./App.css";
+import { Link } from "react-router-dom";
 import logo from "./assets/github.svg";
 import computer from "./assets/computer.svg";
 export default function Home() {
   return (
     <div className="first-section">
       <div className="logo">
-        <img src={logo} alt="" className="logo-image" />
+        <Link to="https://github.com/ns6296666">
+          <img src={logo} alt="" className="logo-image" />
+        </Link>
       </div>
       <div className="heading">
         <img src={computer} alt="" className="code-image" />

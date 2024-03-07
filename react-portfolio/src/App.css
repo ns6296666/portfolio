@@ -230,6 +230,7 @@
   /* justify-content: center;*/
   align-items: center;
   padding: 5px;
+  border-radius:10px;
 }
 .skill-img {
   width: 50px;
@@ -288,3 +289,21 @@
     position: absolute;
     bottom: 0px;
 }
+
+/* footer css */
+.footer{
+  height: 100px;
+  background-color:#1F1F1F;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items:center;
+  color:#fff;
+  
+}
+.git{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.footer p{ font-size: 12px;}
