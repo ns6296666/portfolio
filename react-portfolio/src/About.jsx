@@ -4,10 +4,11 @@ import js from "./assets/javascript.svg";
 import cross from "./assets/cross.svg";
 import mini from "./assets/mini.svg";
 import max from "./assets/max.svg";
+import Heading from "./Heading";
 export default function About() {
   return (
     <div className="about">
-      <p className="about-heading text-center">ABOUT ME</p>
+      <Heading name="ABOUT ME" />
       <div className="about-content">
         <div className="image-container">
           <img src={picture} className="picture" />
