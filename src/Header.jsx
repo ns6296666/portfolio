@@ -16,7 +16,7 @@ export default function Header() {
         <img src={logo} alt="" className="logo-image" />
       </Link>
       <div className="nav">
-        <ul className="list-items">
+        <ul className={menuShown ? "list-items active" : "list-items"}>
           <li className="item">
             <a href="#home" className="active">
               Home
@@ -39,9 +39,8 @@ export default function Header() {
           </li>
         </ul>
       </div>
-      <div onClick={menuHandler}>
+      <div onClick={menuHandler} className="mobile">
         <img src={!menuShown ? menu : cancel} alt="menu" className="mobile" />
-        {/* <img src={cancel} alt="cancel" className="mobile" /> */}
       </div>
     </div>
   );

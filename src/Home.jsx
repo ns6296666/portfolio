@@ -10,7 +10,6 @@ export default function Home() {
       <h1 className="name">NIDHI SHARMA</h1>
 
       <div className="wrapper">
-        <div className="static-txt">I'm a</div>
         <ul className="dynamic-txts">
           <li>
             <span>Developer</span>
