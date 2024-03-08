@@ -10,7 +10,7 @@ import react from "./assets/react.svg";
 
 export default function Skills() {
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="skill">
       <Heading name="SKILLS" className="skill-heading" />
       <div className="skills-cards">
         <SkillCard image={html} name="HTML 5" />
