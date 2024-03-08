@@ -5,9 +5,11 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Header from "./Header";
 function App() {
   return (
     <>
+      <Header />
       <Home />
       <About />
       <Project />
