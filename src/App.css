@@ -557,6 +557,22 @@
   justify-content: space-around;
   flex: 2;
 }
+.skill-img{
+  width: 40px;
+  position: absolute;
+  height: 40px;
+  top: -5px;
+  right: -5px;
+}
+.extra-div {
+ 
+  margin-top: -18px;
+  margin-left: 0px;
+  position: absolute;
+  bottom: -7px;
+}
+
+
 
 
 }
