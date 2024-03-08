@@ -1,6 +1,7 @@
 import "./App.css";
 import { Link } from "react-router-dom";
 import logo from "./assets/github.svg";
+import CV from "./assets/CV.pdf";
 import computer from "./assets/computer.svg";
 export default function Home() {
   return (
@@ -24,6 +25,11 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        <p className="resume">
+          <a href={CV} target="_blank" rel="noopener noreferrer">
+            Click me
+          </a>
+        </p>
       </div>
     </div>
   );
