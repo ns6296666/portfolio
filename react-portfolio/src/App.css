@@ -294,7 +294,26 @@
 
 .contact{
   height: 250px;
-  background-color:#fff
+  background-color:#fff;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+  align-items:center;
+  color:#AE944F;
+}
+.query{
+  font-size: 16px;
+  font-weight: 400;
+}
+.free{
+  font-size: 18px;
+  font-weight: 400;
+}
+.free span{
+  font-size: 20px;
+  font-weight: 500;
 }
 .call{
   width: 20px;

@@ -3,9 +3,11 @@ import whatsapp from "./assets/whatsapp.svg";
 export default function Contact() {
   return (
     <div className="contact">
-      <div className="description">
+      <div className="contact-description">
         <p className="query">For any query</p>
-        <p className="free">Please Feel free to CONTACT me</p>
+        <p className="free">
+          Please Feel free to <span>CONTACT</span> me
+        </p>
       </div>
       <div>
         <div className="information">
