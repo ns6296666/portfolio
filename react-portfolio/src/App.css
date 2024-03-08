@@ -296,6 +296,10 @@
   height: 250px;
   background-color:#fff
 }
+.call{
+  width: 20px;
+  height: 20px;
+}
 
 /* footer css */
 .footer{
