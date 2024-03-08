@@ -11,7 +11,7 @@ import star from "./assets/star.svg";
 
 export default function Experience() {
   return (
-    <div className="experience">
+    <div className="experience" id="work">
       <Heading name="EXPERIENCE" className="skill-heading" />
       <VerticalTimeline>
         <VerticalTimeLine

@@ -2,7 +2,7 @@ import call from "./assets/call.svg";
 import whatsapp from "./assets/whatsapp.svg";
 export default function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-description">
         <p className="query">For any query</p>
         <p className="free">

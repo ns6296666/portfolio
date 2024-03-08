@@ -5,7 +5,7 @@ import computer from "./assets/computer.svg";
 import Header from "./Header";
 export default function Home() {
   return (
-    <div className="heading">
+    <div className="heading" id="home">
       <img src={computer} alt="" className="code-image" />
       <h1 className="name">NIDHI SHARMA</h1>
 

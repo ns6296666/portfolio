@@ -5,7 +5,7 @@ import forecast from "./assets/forecast.avif";
 import ssdn from "./assets/ssdn.jpeg";
 export default function Project() {
   return (
-    <div className="project">
+    <div className="project" id="project">
       <Heading name="PROJECTS" />
       <div className="project-cards">
         <div

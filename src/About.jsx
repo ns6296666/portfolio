@@ -7,7 +7,7 @@ import max from "./assets/max.svg";
 import Heading from "./Heading";
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <Heading name="ABOUT ME" />
       <div className="about-content">
         <div className="image-container">
