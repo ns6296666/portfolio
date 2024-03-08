@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import logo from "./assets/footer.svg";
+import menu from "./assets/hamburger.svg";
+import cancel from "./assets/cancel.svg";
 import { Link } from "react-router-dom";
 export default function Header() {
+  const [menuShown, setMenuShown] = useState(false);
+
+  const menuHandler = () => {
+    setMenuShown((prev) => !prev);
+  };
   return (
     <div className="first-section">
       <Link to="https://github.com/ns6296666">
@@ -31,6 +38,10 @@ export default function Header() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+      </div>
+      <div onClick={menuHandler}>
+        <img src={!menuShown ? menu : cancel} alt="menu" className="mobile" />
+        {/* <img src={cancel} alt="cancel" className="mobile" /> */}
       </div>
     </div>
   );
