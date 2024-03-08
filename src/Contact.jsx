@@ -10,7 +10,7 @@ export default function Contact() {
         </p>
       </div>
       <div className="right-section">
-        <div className="information mr-2">
+        <div className="information">
           <p className="for-call">For Call </p>
           <button>
             <img src={call} alt="call" className="call" />
