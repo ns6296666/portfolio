@@ -465,6 +465,39 @@
   .resume{
     bottom:-46px;
   }
+.about{
+  height: 100vh;
+}
+  .about-content {
+   margin: 0px 15%;
+    flex-direction: column;
+    align-items:center;
+    height: 100%;
+    justify-content: space-between;
+  }
+  .about-heading{
+    margin-top: 10%;
+  } 
+  .image-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .about .picture {
+    padding: 20px 15px 15px 15px;
+    width: 100%;
+    height: 300px;
+  }
 
+  .right-content {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 103px;
+    /* align-items: center; */
+  }
+  .description {
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 20px;
+  }
 
 }
