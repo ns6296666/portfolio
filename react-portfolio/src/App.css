@@ -43,46 +43,59 @@
 .name {
   text-align: center;
 }
-.wrapper {
-  display: inline-flex;
+
+
+/* animation */
+
+.wrapper{
+  display: flex;
 }
-.wrapper .static-txt {
+.wrapper .static-txt{
+  color: #000;
+  font-size: 60px;
+  font-weight: 400;
 }
-.wrapper .dynamic-txts {
+.wrapper .dynamic-txts{
   margin-left: 15px;
   height: 90px;
   line-height: 90px;
   overflow: hidden;
 }
-.dynamic-txts li {
-  color: #000;
+.dynamic-txts li{
   list-style: none;
-  overflow: hidden;
-  animation: slide 1.5s steps(4) infinite;
-  top: 0;
-}
-.dynamic-txts li {
+  color: #000;
+  font-size: 60px;
+  font-weight: 500;
   position: relative;
-}
-.dynamic-txts li span {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 0;
-  animation: typing 1.5s steps(10) infinite;
-  position: absolute;
-  animation-fill-mode: forwards;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
 }
 @keyframes slide {
-  100% {
+  100%{
     top: -360px;
   }
 }
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 80px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #E9D5A1;
+  border-left: 2px solid #000;
+  animation: typing 3s steps(10) infinite;
+}
 @keyframes typing {
-  from {
-    width: 0;
+  40%, 60%{
+    left: calc(100% + 30px);
   }
-  to {
-    width: 100%;
+  100%{
+    left: 0;
   }
 }
 

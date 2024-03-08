@@ -14,17 +14,19 @@ export default function Home() {
       <div className="heading">
         <img src={computer} alt="" className="code-image" />
         <h1 className="name">NIDHI SHARMA</h1>
+
         <div className="wrapper">
-          <div className="static-txt"> I am</div>
+          <div className="static-txt">I'm a</div>
           <ul className="dynamic-txts">
-            <li className="degination">
-              <span>FRONTEND DEVELOPER</span>
+            <li>
+              <span>Developer</span>
             </li>
-            <li className="degination">
-              <span>Mobile Application DEVELOPER</span>
+            <li>
+              <span>Freelancer</span>
             </li>
           </ul>
         </div>
+
         <p className="resume">
           <a href={CV} target="_blank" rel="noopener noreferrer">
             Click me
