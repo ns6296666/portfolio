@@ -15,10 +15,6 @@ N/A
 - npm install
 - npm run dev
 
-## Credits
-
-Above Instruction section is taken from EDX Bootcamp starter readme file.
-
 ## License
 
 Please refer to the LICENSE in the repo.
