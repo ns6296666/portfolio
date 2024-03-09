@@ -1,8 +1,24 @@
-# React + Vite
+# Module 13 Challenge: React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is the 13th week’s challenge given by EDX Bootcamp. This application is React Portfolio which shows details about me like what experience i have, skills, what projects i have done .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+N/A
+
+## Usage
+
+- To start the project in your laptop just paste the command ( git clone git@github.com:ns6296666/portfolio.git).
+
+- npm install
+- npm run dev
+
+## Credits
+
+Above Instruction section is taken from EDX Bootcamp starter readme file.
+
+## License
+
+Please refer to the LICENSE in the repo.
