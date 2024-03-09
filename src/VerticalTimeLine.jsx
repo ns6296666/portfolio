@@ -17,7 +17,7 @@ export default function VerticalTimeLine({
       date={date ? date : null}
       dateClassName="date"
       iconStyle={{ background: "#AE944F", color: "#fff" }}
-      icon={<img src={image} alt="react" className="skill-img" />}
+      icon={<img src={image} alt="react" className="work-img" />}
     >
       <button className="framework">{framework}</button>
       <p className="vertical-timeline-element-title">{designation}</p>

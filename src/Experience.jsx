@@ -61,7 +61,7 @@ export default function Experience() {
         />
         <VerticalTimelineElement
           iconStyle={{ background: "#AE944F", color: "#fff" }}
-          icon={<img src={star} alt="react" className="skill-img" />}
+          icon={<img src={star} alt="react" className="work-img" />}
         />
         <div className="extra-div"></div>
       </VerticalTimeline>
