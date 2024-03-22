@@ -19,10 +19,10 @@ export default function Project() {
             <span>2024</span>
             <p className="card-title">
               <Link
-                to="https://ns6296666.github.io/dailyplanner/"
+                to="https://github.com/applepieorchard/project-2-jobboard"
                 className="text-center"
               >
-                Daily Planner
+                Job Portal
               </Link>
             </p>
           </div>
