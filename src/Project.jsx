@@ -1,7 +1,7 @@
 import Heading from "./Heading";
 import { Link } from "react-router-dom";
-import planner from "./assets/planner.jpg";
-import forecast from "./assets/forecast.avif";
+import physio from "./assets/physio.jpeg";
+import education from "./assets/education.png";
 import ssdn from "./assets/ssdn.jpeg";
 export default function Project() {
   return (
@@ -13,16 +13,13 @@ export default function Project() {
           style={{ width: "20rem", height: "280px" }}
         >
           <Link to="https://ns6296666.github.io/dailyplanner/">
-            <img src={planner} className="card-img-top" alt="planner" />
+            <img src={physio} className="card-img-top physio" alt="planner" />
           </Link>
           <div className="card-body">
-            <span>2024</span>
+            <span>2022</span>
             <p className="card-title">
-              <Link
-                to="https://github.com/applepieorchard/project-2-jobboard"
-                className="text-center"
-              >
-                Job Portal
+              <Link to="https://prophysio.in/" className="text-center">
+                ProPhysio
               </Link>
             </p>
           </div>
@@ -33,13 +30,13 @@ export default function Project() {
           style={{ width: "20rem", height: "280px" }}
         >
           <Link to="https://ns6296666.github.io/WeatherDashboard/">
-            <img src={forecast} className="card-img-top" alt="..." />
+            <img src={education} className="card-img-top" alt="..." />
           </Link>
           <div className="card-body">
-            <span>2024</span>
+            <span>2023</span>
             <p className="card-title">
-              <Link to="https://ns6296666.github.io/WeatherDashboard/">
-                Weather Forecast
+              <Link to="https://www.educationmandal.com/">
+                Education Mandal
               </Link>
             </p>
           </div>
